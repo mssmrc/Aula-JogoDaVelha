@@ -9,9 +9,33 @@
     <title>Document</title>
 </head>
 <body>
+    <section id="winners">
+        <div>
+            <h2>Fim de jogo!</h2>
+            <p>O vencedor foi: <span id="vencedor"></span></p>
+        </div>
+    </section>
     <header>
         <h1>Jogo da Velha</h1>
     </header>
+    <section id="inputs">
+        
+        <h2>Diga seu nome e o simbolo que quer usar no jogo</h2>
+        
+        <div>
+            <label>Jogador 1</label>
+            <input type="text" class="nome" placeholder="Jogador">
+            <input type="text" class="simbolo" placeholder="Simbolo" maxlength="1">
+        </div>
+        <div>
+            <label>Jogador 2</label>
+            <input type="text" class="nome" placeholder="Jogador">
+            <input type="text" class="simbolo" placeholder="Simbolo" maxlength="1">
+        </div>
+        <button>Iniciar jogo</button>
+        
+        
+    </section>
     <section id="tabuleiro">
         <div class="linha">
             <div class="casa"></div>
