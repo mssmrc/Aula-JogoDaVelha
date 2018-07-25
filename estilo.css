@@ -1,0 +1,26 @@
+.casa{
+    height: 150px;
+    width: 150px;
+    border: 4px dashed black;
+    display: inline-block;
+}
+
+.casa:hover{
+    border: 4px solid black
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: lightgray
+}
+
+header h1{
+    color: red;
+
+}
